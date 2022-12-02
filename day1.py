@@ -1,5 +1,5 @@
 with open('day1.txt') as prompt:
-  calories = [calorie for calorie in prompt.read().splitlines()]
+  calories = [calorie_amount for calorie_amount in prompt.read().splitlines()]
 
 calorie_count = 0
 calories_per_elf = []
